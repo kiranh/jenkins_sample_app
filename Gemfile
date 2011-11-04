@@ -30,7 +30,9 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
+gem 'test-unit', :require => 'test/unit' 
 gem 'ci_reporter', :require => 'ci/reporter/rake/test_unit'
+gem 'rcov'
 
 group :test do
   # Pretty printed test output
